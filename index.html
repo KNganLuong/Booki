@@ -20,15 +20,15 @@
             <div class="section-header-logo">
                 <img src="images/logo/Booki.png" alt="logo of Booki">
             </div>
-            <div class="section-header-menu">
-                <a href="" class="buttonHighlight" target="_blank">Hébergements</a>
-                <a href="" class="buttonHighlight" target="_blank">Activités</a>
-            </div>
+            <nav class="section-header-menu">
+                <a href="#hebergements" class="button-highlight">Hébergements</a>
+                <a href="#activites" class="button-highlight">Activités</a>
+            </nav>
         </header>
 
         <main>
 
-            <div>
+            <div class="search-container">
                 <h1>Trouvez votre hébergment pour des vacances de rêve</h1>
                 <span>En plein centre-ville ou en pleine nature</span>
 
@@ -36,7 +36,7 @@
                 <form action="" method="get">
                     <label class="form-icon" for="site-search"> <i class="fa-solid fa-location-dot"></i> </label>
                     <input type="search" id="site-search" name="city">
-                    <button><b>Rechercher</b></button>
+                    <button type="submit"><b>Rechercher</b></button>
                 </form>
 
                 <section class="filter">
@@ -63,7 +63,7 @@
 
                 <section class="hebergements">
                     <div class="hebergements-title">
-                        <h2 class="section-title">Hébergements à Marseille</h2>
+                        <h2 id="hebergements" class="section-title">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergements-cards">
                         <a href="#">
@@ -264,57 +264,74 @@
             </div>
 
             <div class="activites">
-
-                <section class="activites">
-                    <div class="activites-title">
-                        <h2 class="section-title">Activités à Marseille</h2>
-                    </div>
-                    <div class="activites-cards">
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/reno-laithienne.jpg" alt="Image du port">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Vieux-Port</h3>
-                                    </div>
+                <section class="activites-title">
+                    <h2 id="activites" class="section-title">Activités à Marseille</h2>
+                </section>
+                <section class="activites-cards">
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="Image du port">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Vieux-Port</h3>
                                 </div>
-                            </article>
-                        </a>
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Fort de Pomègues</h3>
-                                    </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Fort de Pomègues</h3>
                                 </div>
-                            </article>
-                        </a>
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du parc">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Parc national des Calanques</h3>
-                                    </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du parc">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Parc national des Calanques</h3>
                                 </div>
-                            </article>
-                        </a>
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/florian-wehde.jpg" alt="Image du Notre-Dame">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
-                                    </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/florian-wehde.jpg" alt="Image du Notre-Dame">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                                 </div>
-                            </article>
-                        </a>
-                    </div>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </div>
         </main>
-        <footer></footer>
+
+        <footer>
+
+            <div class="footer-links">
+                <h3>A propos</h3>
+                <a href="#">Fonctionnement du site</a>
+                <a href="#">Conditions générales</a>
+                <a href="#"> Données et confidentialité</a>
+
+            </div>
+            <div class="footer-links">
+                <h3>Nos hébérgements</h3>
+                <a href="#">Charte qualité</a>
+                <a href="#">Proposer votre hôtel</a>
+            </div>
+            <div class="footer-links">
+                <h3>Assistance</h3>
+                <a href="#">Centre d'aide</a>
+                <a href="#">Nous contacter</a>
+            </div>
+        </footer>
     </div>
 </body>
 
