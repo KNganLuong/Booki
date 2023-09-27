@@ -1,4 +1,4 @@
-/****** General ***********/
+/* General */
 * {
   font-family: 'Raleway', sans-serif;
 }
@@ -25,7 +25,7 @@ body {
   box-sizing: border-box;
 }
 
-/***** Header *****/
+/* Header */
 header {
   display: flex;
   flex-direction: row;
@@ -53,7 +53,8 @@ a {
   text-decoration: none;
 }
 
-/*****Recherche*****/
+/*Recherche*/
+
 h1 {
   font-size: 1.5em;
   padding-top: 2.5em;
@@ -99,7 +100,7 @@ form button {
   font-weight: bold;
 }
 
-/*****FILTRES*****/
+/* Filtres */
 
 .filter {
   margin-top: 2.3em;
@@ -137,7 +138,7 @@ form button {
   font-size: 1em;
 }
 
-/*****INFO*****/
+/* INFO */
 
 .info {
   display: flex;
@@ -158,7 +159,7 @@ form button {
   margin-right: 10px;
 }
 
-/*****  *****/
+/*  */
 
 .section-title {
   margin: 0;
@@ -192,7 +193,7 @@ form button {
   color: var(--main-bg-color);
 }
 
-/****** Hebergements And Populaires ***********/
+/* Hebergements And Populaires */
 
 .hebergements-and-populaires {
   margin-top: 30px;
@@ -207,7 +208,7 @@ form button {
   box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/* Hebergements */
 .hebergements {
   width: 65%;
   display: flex;
@@ -265,7 +266,7 @@ form button {
 .hebergements-cards .card-rating {
   margin-bottom: 5px;
 }
-/****** Populaires ***********/
+/* Populaires */
 .populaires {
   width: 32%;
 }
@@ -310,7 +311,7 @@ form button {
   margin-bottom: 5px;
 }
 
-/***** Activités *****/
+/* Activités */
 
 .activites {
   margin-block-start: 50px;
@@ -362,7 +363,7 @@ form button {
   margin-top: 10px;
 }
 
-/***** FOOTER *****/
+/* FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
@@ -384,7 +385,7 @@ footer h3 {
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
-/****** Media queries ***********/
+/* Media queries */
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .filter {
@@ -439,7 +440,7 @@ footer h3 {
     margin: 0px;
   }
 
-  /***** HEADER *****/
+  /* HEADER */
 
   header {
     flex-direction: column;
@@ -501,7 +502,7 @@ footer h3 {
     width: 100%;
   }
 
-  /***** Filtres *****/
+  /* Filtres */
   .filter {
     margin-top: 15px;
   }
@@ -518,7 +519,7 @@ footer h3 {
     padding-right: 0;
   }
 
-  /****** Hebergements And Populaires ***********/
+  /* Hebergements And Populaires */
 
   .hebergements-and-populaires {
     margin-block-start: 0;
@@ -529,7 +530,7 @@ footer h3 {
     border-radius: 0;
   }
 
-  /***** Populaires *****/
+  /* Populaires */
 
   .populaires {
     margin-top: 30px;
@@ -548,7 +549,7 @@ footer h3 {
     width: 33%;
   }
 
-  /***** Hébergements *****/
+  /* Hébergements */
   .hebergements-and-populaires .hebergements {
     background-color: white;
     padding-right: 30px;
@@ -563,7 +564,7 @@ footer h3 {
     width: 100%;
   }
 
-  /***** Activités *****/
+  /* Activités */
 
   .activites {
     margin-block-start: 10px;
@@ -588,7 +589,7 @@ footer h3 {
     margin-top: 15px;
   }
 
-  /***** FOOTER *****/
+  /* FOOTER */
 
   footer {
     padding-top: 0;
