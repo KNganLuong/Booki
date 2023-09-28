@@ -31,6 +31,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   gap: 60%;
+  padding-top: 15px;
 }
 
 .section-header-logo img {
@@ -89,6 +90,12 @@ input {
   width: 200px;
 }
 
+input::placeholder {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
 form button {
   border: 1px solid #0065fc;
   background-color: #0065fc;
@@ -115,13 +122,14 @@ form button {
 }
 
 .filter-button {
+  display: flex;
+  align-items: center;
   font-weight: bold;
   border-radius: 39px;
   border: 2px solid var(--main-bg-color);
   background-color: white;
   height: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px;
   cursor: pointer;
 }
 
@@ -329,7 +337,7 @@ form button {
 
 .activites-cards {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   margin-bottom: 60px;
 }
 
@@ -352,7 +360,7 @@ form button {
 }
 
 .activites-cards .card-content {
-  width: 100%;
+  width: 90%;
   height: 50px;
   padding-left: 15px;
   align-content: center;
@@ -424,6 +432,10 @@ footer h3 {
     font-size: 13px;
   }
 
+  .activites-cards img {
+    height: 200px;
+  }
+
   .activites-cards .card-content {
     overflow: auto;
   }
@@ -458,6 +470,7 @@ footer h3 {
   }
 
   .button-highlight {
+    padding-bottom: 20px;
     border-bottom: 2px solid var(--main-bg-color);
     display: flex;
     justify-content: center;
@@ -515,8 +528,6 @@ footer h3 {
   .filter-button {
     width: 48%;
     border: 3px solid var(--main-bg-color);
-    padding-left: 0;
-    padding-right: 0;
   }
 
   /* Hebergements And Populaires */
